@@ -1,0 +1,830 @@
+[
+    {
+        "id": 1,
+        "categories": [
+            "acteur",
+            "réalisation"
+        ],
+        "comment": "Les acteurs sont tous très bons, tout comme le rythme qui est vraiment très présent, dommage que la réalisation manque de justesse.",
+        "rating": 0.7
+    },
+    {
+        "id": 2,
+        "categories": [
+            "acteur",
+            "réalisation"
+        ],
+        "comment": "une réalisation et un jeu d'acteur qui tient la route, un grand épisode de la tension américo-soviétique !!!",
+        "rating": 0.7
+    },
+    {
+        "id": 3,
+        "categories": [
+            "réalisation"
+        ],
+        "comment": "Un superbe film d'espionnage . Excellent film de donaldson.",
+        "rating": 0.8
+    },
+    {
+        "id": 4,
+        "categories": [
+            "acteur"
+        ],
+        "comment": "Un bon huis clos historique. Kostner très crédible.",
+        "rating": 0.8
+    },
+    {
+        "id": 5,
+        "categories": [
+            "réalisation"
+        ],
+        "comment": "Le meilleur de donaldson ? peut être. En tout les cas, il s'agit d'un formidable film d'espionnage .",
+        "rating": 0.8
+    },
+    {
+        "id": 6,
+        "categories": [
+            "scénario",
+            "acteur"
+        ],
+        "comment": "Un scénario trés intelligent, merveilleusement interprété.",
+        "rating": 1
+    },
+    {
+        "id": 7,
+        "categories": [
+            "ambiance",
+            "acteur"
+        ],
+        "comment": "Un très bon film qui résume parfaitement la crise, dans toute son intensité, car on est vraiment stressé tout le long ! Costner est magistral mais celui qui joue JFK encore plus !",
+        "rating": 1
+    },
+    {
+        "id": 8,
+        "categories": [
+            "réalisation"
+        ],
+        "comment": "Tout le monde connait l'issue de cette crise. Et pourtant, le réalisateur réussit avec brio à nous coller sur notre siège pendant les 2 heures du film ! Chapeau!",
+        "rating": 0.8
+    },
+    {
+        "id": 9,
+        "categories": [
+            "ambiance"
+        ],
+        "comment": "Un film précis et prenant... On ne connaitra jamais la vérité sur cette affaire mais cette version est particulierement crédible.",
+        "rating": 1
+    },
+    {
+        "id": 10,
+        "categories": [
+            "acteur",
+            "ambiance"
+        ],
+        "comment": "Un excellent film épique, brillant avec un casting parfait et des effets spéciaux vraiment très bon! On ne s'ennuie pas malgré que le film dure 3 heures.",
+        "rating": 0.9
+    },
+    {
+        "id": 11,
+        "categories": [
+            "scénario",
+            "acteur",
+            "réalisation"
+        ],
+        "comment": "Magnifique les paysages sont superbe, le scénario est original, le casting est bon et c'est un chef d'oeuvre.",
+        "rating": 1
+    },
+    {
+        "id": 12,
+        "categories": [
+            "ambiance"
+        ],
+        "comment": "Le premier opus d'une trilogie sans équivalent. Il installe à la perfection l'univers et l'ambiance de Tolkien... et puis fichtre quelles images ! (mention spéciale pour Fondcombe)",
+        "rating": 1
+    },
+    {
+        "id": 13,
+        "categories": [
+            "réalisation"
+        ],
+        "comment": "Un excellent film, et surtout une énorme trilogie dont aucune autre n'est aussi aboutit.",
+        "rating": 1
+    },
+    {
+        "id": 14,
+        "categories": [
+            "scénario"
+        ],
+        "comment": "Chef d'œuvre, un film qui a marqué mon enfance! Le premier de la trilogie, qui met en place l'histoire et on apprend à connaître les personnages , 5",
+        "rating": 1
+    },
+    {
+        "id": 15,
+        "categories": [
+            "scénario",
+            "ambiance"
+        ],
+        "comment": "Le premier de la trilogie est une réussite totale. Une mise en scène somptueuse, des scènes épiques, un personnage principal attachant.",
+        "rating": 1
+    },
+    {
+        "id": 16,
+        "categories": [
+            "ambiance",
+            "réalisation"
+        ],
+        "comment": "Le début d'une adaptation de génie ! Ce film est une merveille audiovisuelle !",
+        "rating": 1
+    },
+    {
+        "id": 17,
+        "categories": [
+            "ambiance"
+        ],
+        "comment": "Chef-d'œuvre absolu !! Un film complet comportant de l'action , des paysages naturels très beau , de beaux costumes , un univers prenant , et une aventure palpitante !",
+        "rating": 1
+    },
+    {
+        "id": 18,
+        "categories": [
+            "ambiance"
+        ],
+        "comment": "je trouve que se film et parfait sincérement sais mon film préfèrer jr trouve que les oeuvre de Tolkien sont \r magique.",
+        "rating": 1
+    },
+    {
+        "id": 19,
+        "categories": [
+            "acteur",
+            "ambiance"
+        ],
+        "comment": "Le premier volet de la trilogie mythique du seigneur des anneaux est une très bonne réussite ! Les décors et les acteurs sont très bon , ont a qu'une envie c'est de vite voir la suite !",
+        "rating": 0.8
+    },
+    {
+        "id": 20,
+        "categories": [
+            "ambiance"
+        ],
+        "comment": "Superbe film qui débute la saga Seigneur des Anneaux de Peter Jackson, peut être le moins bon des 3 même si les paysages sont magnifiques et la musique superbe !",
+        "rating": 0.8
+    },
+    {
+        "id": 21,
+        "categories": [
+            "ambiance",
+            "scénario"
+        ],
+        "comment": "énorme touchant et très bon scénario ! je vous le conseille !",
+        "rating": 1
+    },
+    {
+        "id": 22,
+        "categories": [
+            "scénario"
+        ],
+        "comment": "Just perfect ! Scénario inégalable ! A regarder absolument",
+        "rating": 1
+    },
+    {
+        "id": 23,
+        "categories": [
+            "ambiance"
+        ],
+        "comment": "Le début d'une grande trilogie qui commence brillamment avec un film magique aux décors sublimes. On ne sent pas la longueur.",
+        "rating": 1
+    },
+    {
+        "id": 24,
+        "categories": [
+            "ambiance"
+        ],
+        "comment": "cette saga est tout simplement la plus épique de tous les temps",
+        "rating": 1
+    },
+    {
+        "id": 25,
+        "categories": [
+            "ambiance"
+        ],
+        "comment": "Le debut dun saga culte qui est tout simplement epique",
+        "rating": 1
+    },
+    {
+        "id": 26,
+        "categories": [
+            "scénario",
+            "ambiance"
+        ],
+        "comment": "Un très bon film dont le scénario est palpitant. Des personnages impressionnants qui peuvent parfois vous donner des frissons.",
+        "rating": 0.9
+    },
+    {
+        "id": 27,
+        "categories": [
+            "ambiance"
+        ],
+        "comment": "Tout aussi excellent que les autres, c'est avec ce premier épisode que j'ai commencé à adoré cette magnifique trilogie",
+        "rating": 0.9
+    },
+    {
+        "id": 28,
+        "categories": [
+            "ambiance"
+        ],
+        "comment": "Le premier film d'une énorme trilogie qui est à coupée le souffle",
+        "rating": 0.8
+    },
+    {
+        "id": 29,
+        "categories": [
+            "ambiance"
+        ],
+        "comment": "L'excellent premier volet d'une saga épique, on ne s'ennuie pas sur les 2h30≈ du film.",
+        "rating": 1
+    },
+    {
+        "id": 30,
+        "categories": [
+            "acteur",
+            "réalisation"
+        ],
+        "comment": "Un chef d'œuvre du genre, avec un excellent casting, une bonne réalisation, une belle BO, de superbes décors...",
+        "rating": 1
+    },
+    {
+        "id": 31,
+        "categories": [
+            "réalisation"
+        ],
+        "comment": "Premier opus d'un triptyque épique, gigantesque et magistralement servi par des effets spéciaux inédits jusqu'alors.",
+        "rating": 0.9
+    },
+    {
+        "id": 32,
+        "categories": [
+            "ambiance"
+        ],
+        "comment": "La fois ou je l'ais vu, je me suis dis, vivement la suite ! vraiment super ! Au cinéma ça rend plus que tout et en période de Noël c'est pile poil !",
+        "rating": 0.8
+    },
+    {
+        "id": 33,
+        "categories": [
+            "réalisation"
+        ],
+        "comment": "Légendaire... Mythique... Digne du livre... Meilleur réalisateur... THE LORD OF THE RING!!!!",
+        "rating": 1
+    },
+    {
+        "id": 34,
+        "categories": [
+            "ambiance",
+            "réalisation"
+        ],
+        "comment": "la plus grande aventure de tous les temps pour un des plus grands films de tous les a la musique la plus belle musique de l histoire du cinema",
+        "rating": 1
+    },
+    {
+        "id": 35,
+        "categories": [
+            "réalisation"
+        ],
+        "comment": "attention chef d'oeuvre !!!!!!!",
+        "rating": 1
+    },
+    {
+        "id": 36,
+        "categories": [
+            "réalisation",
+            "ambiance"
+        ],
+        "comment": "Le cinéma comme savait le faire les italiens à la fois drole et profond sur l'immigration.",
+        "rating": 0.8
+    },
+    {
+        "id": 37,
+        "categories": [
+            "réalisation"
+        ],
+        "comment": "Un film marquant !\r Deux scènes à ne pas louper :\r - celle où l'immigré regarde les aryens se baigner\r - celle où il se démasque pendant le match de foot allemagne-italie",
+        "rating": 1
+    },
+    {
+        "id": 38,
+        "categories": [
+            "réalisation"
+        ],
+        "comment": "Une vraie petite merveille, bercée par la voix de Montand.",
+        "rating": 0.8
+    },
+    {
+        "id": 39,
+        "categories": [
+            "acteur",
+            "réalisation"
+        ],
+        "comment": "Acteurs sympathiques, dialogues amusants, seulement Preminger n'a rien fait pour gommer le coté pièce de théâtre du coup le film passe, un peu monotone.",
+        "rating": 0.5
+    },
+    {
+        "id": 40,
+        "categories": [
+            "réalisation",
+            "ambiance"
+        ],
+        "comment": "tres tres sympa,par le maitre preminger\r on ne s'ennuie jamais,a voir",
+        "rating": 0.8
+    },
+    {
+        "id": 41,
+        "categories": [
+            "réalisation",
+            "ambiance"
+        ],
+        "comment": "A voir pour l'histoire du cinéma car certaines séquences sont droles meme si l'ensemble est franchement ennuyeux.",
+        "rating": 0.2
+    },
+    {
+        "id": 42,
+        "categories": [
+            "scénario"
+        ],
+        "comment": "De loin mon Disney préféré... Une histoire et des personnages complètement farfelus qui continuent de me faire rêver même étant adulte... je valide !",
+        "rating": 1
+    },
+    {
+        "id": 43,
+        "categories": [
+            "réalisation"
+        ],
+        "comment": "Un film fou et délirant mais tellement survolté et plein de surprises",
+        "rating": 0.9
+    },
+    {
+        "id": 44,
+        "categories": [
+            "réalisation"
+        ],
+        "comment": "Un magnifique dessin-animé Disney à faire découvrir aussi bien aux plus jeunes qu'aux plus grands. A partager avec toute la famille.",
+        "rating": 0.7
+    },
+    {
+        "id": 45,
+        "categories": [
+            "réalisation"
+        ],
+        "comment": "Un bon Disney avec de l'humour, du fantastique et pas une once d'ennui.",
+        "rating": 0.7
+    },
+    {
+        "id": 46,
+        "categories": [
+            "réalisation"
+        ],
+        "comment": "Décalé, drôle, absurde, fantastique. Un dessin animé à voir absolument!",
+        "rating": 0.8
+    },
+    {
+        "id": 47,
+        "categories": [
+            "scénario"
+        ],
+        "comment": "Ce film à berçer mon enfance pendant des années j'ai du le voir au moin 10 fois",
+        "rating": 0.8
+    },
+    {
+        "id": 48,
+        "categories": [
+            "réalisation"
+        ],
+        "comment": "Je ne sais pas si ce film est fidèle au livre mais ce dessin animée est fou et complétement absurde",
+        "rating": 0.8
+    },
+    {
+        "id": 49,
+        "categories": [
+            "réalisation"
+        ],
+        "comment": "Sans conteste l’œuvre la plus délirante et loufoque de Disney. Après tant d’années c’est toujours aussi plaisant à regarder. Indémodable!",
+        "rating": 0.8
+    },
+    {
+        "id": 50,
+        "categories": [
+            "scénario"
+        ],
+        "comment": "Un univers fantastique remplit de lapin et de fleurs qui chantent.",
+        "rating": 0.8
+    },
+    {
+        "id": 51,
+        "categories": [
+            "réalisation"
+        ],
+        "comment": "Je préfère de loin le livre même si les disneys ont toujours leur charme.",
+        "rating": 0.6
+    },
+    {
+        "id": 52,
+        "categories": [
+            "réalisation"
+        ],
+        "comment": "Un disney à part qui épouse à la perfection l'univers de Lewis Carroll. Un enchantement!",
+        "rating": 1
+    },
+    {
+        "id": 53,
+        "categories": [
+            "scénario"
+        ],
+        "comment": "bien réfléchi il fallait vraiment inventer un sénatio et une histoire pareil! pour moi c'est le meilleur des disney, on ne s'ennui jamais et la seule logique... Aucune logique!",
+        "rating": 1
+    },
+    {
+        "id": 54,
+        "categories": [
+            "ambiance"
+        ],
+        "comment": "Magique.",
+        "rating": 0.8
+    },
+    {
+        "id": 55,
+        "categories": [
+            "réalisation"
+        ],
+        "comment": "Un chef d'oeuvre inoubliable. Malgré ses qualités, le film de burton ne lui arrive pas à la cheville. Génial de A à Z.",
+        "rating": 1
+    },
+    {
+        "id": 56,
+        "categories": [
+            "scénario"
+        ],
+        "comment": "Un dessin-animé assez décalé qui nous fait basculer dans l'incroyable monde des rêves d'une petite fille.",
+        "rating": 0.7
+    },
+    {
+        "id": 57,
+        "categories": [
+            "réalisation"
+        ],
+        "comment": "Un bon disney qui plaira à tous ceux qui n'aime pas se prendre au sérieux .",
+        "rating": 1
+    },
+    {
+        "id": 58,
+        "categories": [
+            "ambiance"
+        ],
+        "comment": "Ah que d'émotions, combien de fois j'ai pu le regarder ce dessin-animé",
+        "rating": 0.9
+    },
+    {
+        "id": 59,
+        "categories": [
+            "ambiance"
+        ],
+        "comment": "Ce film me terrorrisait quand j'étais gamine. Je ne l'ai plus vu depuis longtemps mais je pense qu'il ne faut pas le montrer aux trop jeunes enfants. Ca les perturbe.",
+        "rating": 0.4
+    },
+    {
+        "id": 60,
+        "categories": [
+            "ambiance",
+            "réalisation"
+        ],
+        "comment": "Franchement malsain, Alice In Wonderland reflète l'état d'esprit des mauvais Disney. Le conte est déjà nul en soi, mais le film est à la limite du comestible.",
+        "rating": 0.1
+    },
+    {
+        "id": 61,
+        "categories": [
+            "ambiance"
+        ],
+        "comment": "J'ai adoré !! C'est vrai que ça date vraiment ! Mais faut le voir jeune !! ;) Si un adulte de 30 ans le regarde c'est plus du tout intéressant xD !",
+        "rating": 1
+    },
+    {
+        "id": 62,
+        "categories": [
+            "ambiance"
+        ],
+        "comment": "Magnifique on ne s'en lasse pas. un dessin animé haut en couleurs dans un univers certes déjanté mais passionnant acec pleins de personnages attachants.",
+        "rating": 1
+    },
+    {
+        "id": 63,
+        "categories": [
+            "réalisation"
+        ],
+        "comment": "Walt Disney réalise un des plus grands dessin-animés de tous les temps, un véritable chef-d’œuvre à voir au moins une fois dans sa vie.",
+        "rating": 1
+    },
+    {
+        "id": 64,
+        "categories": [
+            "réalisation"
+        ],
+        "comment": "Un classique de Disney qui est à mon sens incontournable.",
+        "rating": 0.9
+    },
+    {
+        "id": 65,
+        "categories": [
+            "ambiance"
+        ],
+        "comment": "Alice au pays des merveilles se suit pour sa magie et ses couleurs. L'immoralité ambiante pourra satisfaire les plus vieux d'une branlette intellectuelle.",
+        "rating": 0.4
+    },
+    {
+        "id": 66,
+        "categories": [
+            "ambiance"
+        ],
+        "comment": "Un seul mot: Magique! Ce film a bercer mon enfance et le fait encore aujourd'hui!! D'une pure poésie! Merci Lewis Caroll et merci Disney!",
+        "rating": 1
+    },
+    {
+        "id": 67,
+        "categories": [
+            "ambiance"
+        ],
+        "comment": "Je ne suis pas un grand fan d'alice au pays des merveilles mais le dessin-animé reste magique",
+        "rating": 0.7
+    },
+    {
+        "id": 68,
+        "categories": [
+            "ambiance"
+        ],
+        "comment": "Un chef-d'oeuvre,un classique Disney ! Une histoire étrange,des personnages culte et des chansons uniques.",
+        "rating": 1
+    },
+    {
+        "id": 69,
+        "categories": [
+            "ambiance"
+        ],
+        "comment": "Histoire incroyable et sublime musique. Sous le charme...",
+        "rating": 1
+    },
+    {
+        "id": 70,
+        "categories": [
+            "ambiance"
+        ],
+        "comment": "Un très bon Disney mais qui est trop souvent inégal. Certains passages sont assez ennuyeux.",
+        "rating": 0.7
+    },
+    {
+        "id": 71,
+        "categories": [
+            "ambiance"
+        ],
+        "comment": "Un chef d'oeuvre de Disney !! Une histoire et des chansons uniques !!",
+        "rating": 1
+    },
+    {
+        "id": 72,
+        "categories": [
+            "ambiance"
+        ],
+        "comment": "Un super Walt Disney avec tout ce qu'il faut de bizarreries pour soutenir la comparaison avec le livre de Lewis Carroll. Un joyeux non-anniversaire ma chèèèèèèèèèèèèèère",
+        "rating": 1
+    },
+    {
+        "id": 73,
+        "categories": [
+            "réalisation"
+        ],
+        "comment": "Pas forcement le meilleur wall disney, Ce Alice au pays des merveilles n'en reste pas moins un bon film d'animation. Un classique à voir, mais pas exempt de tout défaut.",
+        "rating": 0.8
+    },
+    {
+        "id": 74,
+        "categories": [
+            "ambiance"
+        ],
+        "comment": "Un vrai Walt Disney à l'ancienne, bourré de musiques comme je les aiment !",
+        "rating": 0.6
+    },
+    {
+        "id": 75,
+        "categories": [
+            "ambiance"
+        ],
+        "comment": "Déjanté",
+        "rating": 1
+    },
+    {
+        "id": 76,
+        "categories": [
+            "scénario"
+        ],
+        "comment": "Ce film m'a beaucoup deçu, il ne montre pas la réalité des cités françaises, c'est plus une fiction qu'un film montrant la vie réel.",
+        "rating": 0.4
+    },
+    {
+        "id": 77,
+        "categories": [
+            "réalisation"
+        ],
+        "comment": "j'adore!!!!! tro bien ce film et tré bonne vengeance",
+        "rating": 1
+    },
+    {
+        "id": 78,
+        "categories": [
+            "acteur"
+        ],
+        "comment": "un western urbain dans la lignée de la haine et de ma 6-t va crack-er. plutôt bien foutu et bien interprété.",
+        "rating": 0.7
+    },
+    {
+        "id": 79,
+        "categories": [
+            "scénario",
+            "acteur"
+        ],
+        "comment": "un film coup de poing dans un univers dur, un grand bravo à toute l'équipe (scénariste, réalisateur et surtout aux acteurs).",
+        "rating": 0.6
+    },
+    {
+        "id": 80,
+        "categories": [
+            "scénario",
+            "réalisation"
+        ],
+        "comment": "se film et une vrai daupe il ne montre pas la realite de la cite acteur bidon scenar pourrie un vrai naufrage a eviter",
+        "rating": 0.1
+    },
+    {
+        "id": 81,
+        "categories": [
+            "acteur"
+        ],
+        "comment": "un film coup de poing avec un acteur très bon, une certaine réalité des banlieue est montré ici !!!!",
+        "rating": 0.8
+    },
+    {
+        "id": 82,
+        "categories": [
+            "ambiance"
+        ],
+        "comment": "Un film qui met bien en avant la pauvre situation des jeunes femmes au sein de banlieues chaudes. Le tout est trop monotone pour pouvoir nous emballer comme il se devrait.",
+        "rating": 0.2
+    },
+    {
+        "id": 83,
+        "categories": [
+            "ambiance"
+        ],
+        "comment": "Une étoile déjà pour la BO signée Cut Killer, le reste tiens la route avec difficulté malgré une volonté de réalisme correcte.",
+        "rating": 0.5
+    },
+    {
+        "id": 84,
+        "categories": [
+            "scénario"
+        ],
+        "comment": "Un bon film où l'on met bien en évidence les travers de la banlieue.\r On lui reprochera sans doute d'être parfois un peu lent, morosité oblige, un peu bavard aussi, par moments.",
+        "rating": 0.5
+    },
+    {
+        "id": 85,
+        "categories": [
+            "scénario"
+        ],
+        "comment": "Bon film, qui nous montre de plus près une cité de Paris.",
+        "rating": 0.5
+    },
+    {
+        "id": 86,
+        "categories": [
+            "scénario"
+        ],
+        "comment": "Original car ca montre le côté féminin des banlieues. Mais ce n'est pas le meilleur film sur le sujet.",
+        "rating": 0.5
+    },
+    {
+        "id": 87,
+        "categories": [
+            "scénario"
+        ],
+        "comment": "Une étoile et encore, uniquement parce que pour une fois, on voit l'angle de vue des femmes dans un film de 'cité' mais pour le reste, c'est rempli de préjugés et ça carbure en exagérations!",
+        "rating": 0.2
+    },
+    {
+        "id": 88,
+        "categories": [
+            "scénario"
+        ],
+        "comment": "Je suis pas spécialiste de la question, mais il me semble que ce film est une peinture assez réaliste des moeurs qui règne dans ces cités où il fait si bon vivre.",
+        "rating": 0.5
+    },
+    {
+        "id": 89,
+        "categories": [
+            "acteur",
+            "scénario"
+        ],
+        "comment": "un tres bon film de cité tres bien joué avec une fin optimiste",
+        "rating": 1
+    },
+    {
+        "id": 90,
+        "categories": [
+            "réalisation",
+            "acteur"
+        ],
+        "comment": "Moi j'ai trouvé que c'était un bon film, le thème n'est pas assez exploité ! mais il y a de très bons acteurs .",
+        "rating": 0.8
+    },
+    {
+        "id": 91,
+        "categories": [
+            "réalisation"
+        ],
+        "comment": "film coup de poing",
+        "rating": 0.8
+    },
+    {
+        "id": 92,
+        "categories": [
+            "acteur"
+        ],
+        "comment": "J'ai détesté ce film, pas d'effort dans les dialogues.\r Les acteurs parlent comme dans la rue, vulgairement.\r Je respecte bien entendu le public, qui lui aura aimé ce film.",
+        "rating": 0.2
+    },
+    {
+        "id": 93,
+        "categories": [
+            "réalisation"
+        ],
+        "comment": "Ce film est sans intérêt ! Le pire que j'ai vu de toute ma vie !!! Pale imitation de La haine ou \r Rai.... ce film est à éviter.",
+        "rating": 0.2
+    },
+    {
+        "id": 94,
+        "categories": [
+            "réalisation"
+        ],
+        "comment": "Célèbre et beau film muet. La virtuosité n'est pas l'ennemi juré des grandes et belles oeuvres.",
+        "rating": 0.8
+    },
+    {
+        "id": 95,
+        "categories": [
+            "scénario",
+            "acteur",
+            "scénario"
+        ],
+        "comment": "une belle réalisation pour l'époque, pas mal de rebondissements et des acteurs marquants, Philippe Klay est excellents et ne dépareillerait pas dans un film de Tarentino.",
+        "rating": 0.8
+    },
+    {
+        "id": 96,
+        "categories": [
+            "scénario",
+            "ambiance"
+        ],
+        "comment": "Quand l'action est ennuyeuse, le scénario incompréhensible et que l'humour tombe à plat, que sauver de ce tissu d'âneries à part peut-être le sourire de Cameron Diaz ?",
+        "rating": 0.2
+    },
+    {
+        "id": 97,
+        "categories": [
+            "acteur"
+        ],
+        "comment": "Dans 'Charlie et ses drôles de dames', heureusement que l'humour second degrés et Bill Murray viennent sauver le reste pour rendre ce film un minimum divertissant. 7/20",
+        "rating": 0.4
+    },
+    {
+        "id": 98,
+        "categories": [
+            "ambiance"
+        ],
+        "comment": "Un divertissement très second degré qui réunit habilement humour potache, cinéma d’action et d’aventure.",
+        "rating": 0.5
+    },
+    {
+        "id": 99,
+        "categories": [
+            "acteur",
+            "ambiance"
+        ],
+        "comment": "D'accord c'est gros et cul cul mais j'adore, je l'ai vu je sais pas combien de fois et bordel que j'adore, le cast est génial, l'humour et les cascades sont excellentes, voila j'adore !",
+        "rating": 0.9
+    },
+    {
+        "id": 100,
+        "categories": [
+            "acteur",
+            "ambiance"
+        ],
+        "comment": "Un film divertissant avec des actrices sexy et un Sam Rockwell hilarant surtout lorsqu‘il danse avec la cigarette.",
+        "rating": 0.6
+    }
+]
