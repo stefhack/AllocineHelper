@@ -17,12 +17,12 @@ class AlloConsumer {
         $this->_data = array();
     }
 
-    public function consume($count = 100, $code = 27066, $filter = 'public') {
+    public function consume($count = 100, $code = 27066, $filter = 'public', $strMaxLen = 200) {
         $stop = 0;
         while ($stop < $count) {
             $data = $this->getReviewList($code, $filter);
             foreach ($data["review"] as $review) {
-                if ($count !== ($count + 1) && strlen($review["body"] < 200)) {
+                if ($count !== ($count + 1) && strlen($review["body"] < $strMaxLen)) {
                     $comment = $this->clearComment($review["body"]);
                     $record = $this->createRecord($count, array(), $comment, ($review["rating"] * 2) / 10);
                     $this->_data[] = $record;
