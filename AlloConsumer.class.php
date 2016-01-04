@@ -36,7 +36,7 @@ class AlloConsumer {
     }
 
     private function createRecord($id, $categories, $comment, $rating) {
-        return array('id' => $id, 'categories' => $categories, 'comment' => $comment, 'rating' => (($rating * 2) / 10));
+        return array('id' => $id, 'categories' => $categories, 'comment' => $comment, 'rating' => $rating);
     }
 
     private function getReviewList(&$code, $filter) {
@@ -46,8 +46,10 @@ class AlloConsumer {
     }
 
     private function clearComment($comment) {
-        $comment = str_replace("\"", "'", $comment);
+         $comment = str_replace("(", "", $comment);
+          $comment = str_replace(")", "", $comment);
         $comment = str_replace("\n", " ", $comment);
+        $comment = str_replace("\r", " ", $comment);
         $comment = str_replace("  ", " ", $comment);
         $comment = str_replace("'", " ", $comment);
         $comment = str_replace("!", " ", $comment);
@@ -55,8 +57,10 @@ class AlloConsumer {
         $comment = str_replace(".", " ", $comment);
         $comment = str_replace(",", " ", $comment);
         $comment = htmlentities($comment);
-
-        return $comment;
+         $comment = str_replace("\"", "'", $comment);
+        $comment = trim($comment);
+        return mb_convert_encoding($comment, 'UTF-8', 'auto');  
+        
     }
 
     public function getData() {
@@ -66,5 +70,11 @@ class AlloConsumer {
     public function getJSONData() {
         return json_encode($this->_data);
     }
+    
+    public function writeJSON(){
 
+        $file = fopen("json/".date('Ymd').".json","w");
+        fwrite($file, utf8_encode(json_encode($this->_data)));
+        fclose($file);
+    }
 }

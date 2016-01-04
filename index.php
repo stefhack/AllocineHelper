@@ -13,13 +13,19 @@
 
 //        $alloStats = new AlloStats('json/152311 - final.json');
 //        $alloStats->displayCategories();
+//                $alloConsumer = new AlloConsumer;
+//        $alloConsumer->consume();
+//        print_r($alloConsumer->getJSONData());
+//        $alloConsumer->writeJSON();
         
-        $data_cleaner = new DataCleaner("json/151207.json");
+        $data_cleaner = new DataCleaner("json/data.json");
         $data_cleaner->removeStopWords();
+        $data_cleaner->generateArffFile();
         // ---------
 //        $alloConsumer = new AlloConsumer;
 //        $alloConsumer->consume();
 //        print_r($alloConsumer->getJSONData());
-        ?>
+//        $alloConsumer->writeJSON();
+//        ?>
     </body>
 </html>
