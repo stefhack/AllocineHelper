@@ -1,7 +1,7 @@
 <?php
 
 require_once './api-allocine-helper.php';
-
+require_once './DataCleaner.class.php';
 /**
  * Description of AlloConsumer
  *
@@ -11,23 +11,26 @@ class AlloConsumer {
 
     private $_alloHelper;
     private $_data;
+    private $_dataCleaner;
 
     public function __construct() {
         $this->_alloHelper = new AlloHelper;
         $this->_data = array();
+        $this->_dataCleaner = new DataCleaner(null);
     }
 
-    public function consume($count = 100, $code = 27076, $filter = 'public', $strMaxLen = 200) {
+    public function consume($count = 100, $code = 25276, $filter = 'public', $strMaxLen = 200) {
         $stop = 0;
         while ($stop < $count) {
             $data = $this->getReviewList($code, $filter);
             
             foreach ($data as $review) {
                 if ($count !== ($count + 1) && strlen($review["body"]) < $strMaxLen) {
-                    $comment = $this->clearComment($review["body"]);
-                    $record = $this->createRecord($stop + 1, array(), $comment, ($review["rating"] * 2) / 10);
+                    $comment = $this->_dataCleaner->clearComment($review["body"]);
+                    $record = $this->createRecord($stop + 1, array("Put categories here ;)"), $comment, ($review["rating"] * 2) / 10);
                     $this->_data[] = $record;
                     $stop++;
+                    break;
                 }
             }
            
@@ -36,7 +39,7 @@ class AlloConsumer {
     }
 
     private function createRecord($id, $categories, $comment, $rating) {
-        return array('id' => $id, 'categories' => $categories, 'comment' => $comment, 'rating' => $rating);
+        return array('id' => $id, 'catégorie' => $categories, 'commentaires' => $comment, 'polarité' => $rating);
     }
 
     private function getReviewList(&$code, $filter) {
@@ -45,23 +48,6 @@ class AlloConsumer {
         return isset($reviewList->getArray()['review']) ? $reviewList->getArray()['review'] : $this->getReviewList($code, $filter);
     }
 
-    private function clearComment($comment) {
-         $comment = str_replace("(", "", $comment);
-          $comment = str_replace(")", "", $comment);
-        $comment = str_replace("\n", " ", $comment);
-        $comment = str_replace("\r", " ", $comment);
-        $comment = str_replace("  ", " ", $comment);
-        $comment = str_replace("'", " ", $comment);
-        $comment = str_replace("!", " ", $comment);
-        $comment = str_replace("?", " ", $comment);
-        $comment = str_replace(".", " ", $comment);
-        $comment = str_replace(",", " ", $comment);
-        $comment = htmlentities($comment);
-         $comment = str_replace("\"", "'", $comment);
-        $comment = trim($comment);
-        return mb_convert_encoding($comment, 'UTF-8', 'auto');  
-        
-    }
 
     public function getData() {
         return $this->_data;
@@ -73,8 +59,8 @@ class AlloConsumer {
     
     public function writeJSON(){
 
-        $file = fopen("json/".date('Ymd').".json","w");
-        fwrite($file, utf8_encode(json_encode($this->_data)));
+        $file = fopen("json/".date('Ymd_H_i_s').".json","w");
+        fwrite($file, json_encode($this->_data));
         fclose($file);
     }
 }

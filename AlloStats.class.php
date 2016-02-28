@@ -21,6 +21,7 @@ class AlloStats {
         $this->_data = json_decode(file_get_contents($this->_filePath));
     }
 
+    
     public function displayCategories() {
 
         $allCategories = $this->getCategories();
@@ -28,7 +29,7 @@ class AlloStats {
         $totalRecords = sizeof($this->_data);
 
         echo '<fieldset>';
-        echo '<legend>Categories</legend>';
+        echo '<legend>Categories du fichier : '.$this->_filePath.'</legend>';
 
         foreach ($allCategories as $key => $value) {
             echo '<p>' . $key . ' : <b>' . $value . '</b></p>';
