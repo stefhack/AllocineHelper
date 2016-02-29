@@ -23,15 +23,16 @@
             <input type="file" name="json_file"/>
             <input type="submit" value="Obtenir le ARFF">
         </form> 
-        </fieldset>
-       
-        
-        <?php 
+             <?php 
         
         if(isset($_GET['download_file'])){?>
         <a href="<?php echo $_GET['download_file'] ?>" download="">Fichier Arff</a>
         <?php }
         ?>
+        </fieldset>
+       
+        
+       
         
         <fieldset>
             <legend><h3>Traitement du fichier ARFF</h3></legend>

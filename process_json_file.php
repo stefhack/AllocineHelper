@@ -21,5 +21,5 @@ else{
 }
 
 
-header("refreash:5;url=index.php?download_file=".$arff_file);
+header("refresh:5;url=index.php?download_file=".$arff_file);
 

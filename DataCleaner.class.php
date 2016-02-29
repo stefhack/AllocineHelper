@@ -157,7 +157,9 @@ class DataCleaner {
         $comment = str_replace(".", " ", $comment);
         $comment = str_replace(",", " ", $comment);               
         $comment = str_replace("\"", "'", $comment);
-         $comment = htmlentities($comment); 
+        $comment = str_replace("<", "", $comment);
+        $comment = str_replace(">", "", $comment);
+//         $comment = htmlentities($comment); 
         $comment = trim($comment);
         return $comment;
 //        return mb_convert_encoding($comment, 'UTF-8', 'auto');

@@ -39,7 +39,8 @@ class AlloConsumer {
     }
 
     private function createRecord($id, $categories, $comment, $rating) {
-        return array('id' => $id, 'catégorie' => $categories, 'commentaires' => $comment, 'polarité' => $rating);
+        return array('id' => $id,'catégorie' => $categories, 
+            'commentaires' => $comment, 'polarité' => $rating);
     }
 
     private function getReviewList(&$code, $filter) {
@@ -60,7 +61,7 @@ class AlloConsumer {
     public function writeJSON(){
 
         $file = fopen("json/".date('Ymd_H_i_s').".json","w");
-        fwrite($file, json_encode($this->_data));
+        fwrite($file, json_encode($this->_data,JSON_UNESCAPED_UNICODE));
         fclose($file);
     }
 }
