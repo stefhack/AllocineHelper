@@ -1,0 +1,61 @@
+[{
+        "id": "1",
+        "comment": "Hôtel très tenu, idéalement situé. check in check out très rapidement effectués. petit déjeuner, très copieux formule 'à volonté' délicieux. chambres calmes, propres. recommander !",
+        "categories": ["Localisation", "Propreté", "Chambre", "Service"],
+        "rating": "0.8"
+    }, {
+        "id": "2",
+        "comment": "C'est hôtel chaîne standards Ibis bonne mauvaise surprise. chambre n'est grande très fonctionnelle. Salle bains baignoire. points forts l'emplacement, à dizaine minutes à pieds gare Saint Pancras, pied métro Euston amène très rapidement centre Londres.",
+        "categories": ["Chambre", "Localisation"],
+        "rating": "0.2"
+    }, {
+        "id": "3",
+        "comment": "accueil très agréable à réception , hotel idéalement situé,à proximité gares St Pancras Euston à métro parfaitement isolé déco à fois reposante moderne ,",
+        "categories": ["Service", "Localisation"],
+        "rating": "0.6"
+    }, {
+        "id": "4",
+        "comment": "Hôtel très sympa, accueillant chaleureux, emplacement idéal, chambre à correcte, petit-déjeuner extra personnel restaurant très professionnel! clin d'oeil spécial à Aurélia Tomas (ainsi qu'à fille C\/I)! accueil, disponibilité, gentillesse sourire!!! C'était super! Kristel L.",
+        "categories": ["Service", "Localisation", "Chambre"],
+        "rating": "0.4"
+    }, {
+        "id": "5",
+        "comment": "Bon accueil, moderne, chambre prête dès l'arrivée propre. Salle bain nickel.Ménage changement serviettes jours. Petit déjeuner anglais excellent buffet (même place affluence) resto mal (hamburger recommandé). Hôtel loin St Pancras à pied métro Euston à 5mn sorties quotidiennes. conseille.",
+        "categories": ["Chambre", "Literie", "Propreté", "Service", "Localisation"],
+        "rating": "0.9"
+    }, {
+        "id": "6",
+        "comment": "Hotel tres placé arrivent repartent saint pancras. été entièrement refait, moder décoré. restaurant sympa, lumineux petit-déjeuner tres copieux bons. chambres petites design, fonctionnelles confortables.",
+        "categories": ["Localisation", "Service", "Chambre"],
+        "rating": "0.1"
+    }, {
+        "id": "7",
+        "comment": "Impossibilité téléphoner Londres chambre: problème résolu 3 jours! Très difficile commander boissons bar, attente ++ obligation d'aller chercher boisons... détails certes, à revoir d'urgence!",
+        "categories": ["Chambre", "Service"],
+        "rating": "0.3"
+    }, {
+        "id": "8",
+        "comment": "L'hôtel très situé, personnel très disponible vraiment agréable. quartier très calme, vraiment reposant. breakfast parfait. Seul bémol, 2 chaînes TV françaises, n'est vraiment suffisant !!!!!",
+        "categories": ["Localisation", "Service"],
+        "rating": "0.7"
+    }, {
+        "id": "9",
+        "comment": "Hôtel situé à centaines mètres gare St Pancras. Station métro (Euston Station) à proximité. restaurants pubs l'hôtel. chambres équipées, malgré petite taille. L'insonorisation chambre très bonne. Personnel agréable à l'écoute. recommande vivement hôtel.",
+        "categories": ["Localisation", "Chambre"],
+        "rating": "0.6"
+    }, {
+        "id": "10",
+        "comment": "Confortable, moderne, chambre confortable bonne literie. Petit déjeuner très copieux choix. À 20 mn à pied Gare Pancras (Eurostar), British Museum quartier Camden Town. Personnel souriant chaleureux",
+        "categories": ["Chambre", "Literie", "Service", "Localisation"],
+        "rating": "0.8"
+    }, {
+        "id": "11",
+        "comment": "Chambre refaite à arrivée à 21h00, avons êtés relogé ds chambre , surprise ! carreaux carrelage sdb cassés tranchant, wc sale, porte ferme , couette tachée ,dommage hotel situé bon accueil . nuit .......",
+        "categories": ["Chambre", "Service", "Localisation"],
+        "rating": "0.2"
+    }, {
+        "id": "12",
+        "comment": "Hotel très raisonnable prix, prises électriques sorties mur, chambre correcte, refaite terme sol peinture longtemps. cabine douche à refaire, joins commencent à partir",
+        "categories": ["Qualité-Prix", "Chambre"],
+        "rating": "0.6"
+    }]

@@ -37,15 +37,27 @@
             <legend><h3>Traitement du fichier ARFF</h3></legend>
         <form action="process_arff_file.php" method="POST" enctype="multipart/form-data">
             <input type="file" name="arff_file"/>
+            <br>
             <label>Regression : </label>
             <input type="checkbox" name="regression">
+            <br>
             <label>IDF : </label>
             <input type="checkbox" name="IDF">
+            <br>
             <label>TF: </label>
             <input type="checkbox" name="TF">
+            <br>
             <label>Nb Folds Cross-Validation : </label>
             <input type="number" min="1" max="10" name="folds">
             <br>
+            <label>Tokenizer : </label>
+            <select name="tokenizer">
+                <option value="Alphabetical">Alphabetical</option>
+                <option value="NGram">NGram</option>
+                <option value="Word" selected>Word</option>
+            </select>
+            <br>
+            <label>Stemmer : </label>
             <select name="stemmer">
                 <option value="NullStemmer">NullStemmer</option>
                  <option value="LovinsStemmer">LovinsStemmer</option>    
